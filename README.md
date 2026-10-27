@@ -6,7 +6,7 @@ Aquest repositori conté les pràctiques, exercicis i codi desenvolupat per a l'
 
 > [!WARNING]
 > **Avís d'ús acadèmic (Disclaimer):**  
-> Aquest repositori té una finalitat purament il·lustrativa i de consulta. Si ets estudiant d'IDI, et recomano fortament **intentar resoldre els exercicis i la prova pràctica de laboratori pel teu compte** abans de mirar les solucions. Copiar codi directament no et prepararà correctament per a l'avaluació ni per al disseny d'aplicacions interactives.
+> Aquest repositori té una finalitat purament il·lustrativa i de consulta. Si ets estudiant d'IDI, et recomano fortament **intentar resoldre els exercicis i la prova pràctica de laboratori pel teu compte** abans de mirar les solucions. Copiar codi directament no et prepararà correctament per a l'avaluació ni per al disseny d'aplicacions interactives. Els continguts del repositori no tenen cap garantia i és probable que alguns executables fallin per falta de dependències o models (reviseu que la carpeta models amb els .obj estigui al directori pare).
 
 ---
 
@@ -36,21 +36,9 @@ El contingut de l'assignatura està dividit principalment en dos grans blocs pr�
 
 ---
 
-## 🚀 Com Executar el Codi
-
 ### Requisits previs
 Certifica't de tenir instal·lat:
 * Compilador C++ (g++ / clang)
 * **Qt Creator** (amb el mòdul OpenGL / `QOpenGLWidget`)
 * Biblioteques de desenvolupament d'OpenGL (p. ex., `libgl1-mesa-dev` en Linux)
-
-### Instruccions
-1. Obre el fitxer del projecte `.pro` correnponent a la sessió amb **Qt Creator**.
-2. Configura el *kit* de compilació (Desktop C++).
-3. Compila i executa des de l'entorn de Qt Creator (`Ctrl + R`).
-
----
-
-## ✒️ Autor
-
-* **El teu nom / Usuari de GitHub** ([@el-teu-usuari](https://github.com/))
+* Segueix les instruccions al lab per saber com executar
